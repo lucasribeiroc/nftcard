@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: hsl(217, 54%, 11%);
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+  display: block;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+hr {
+  border: 1px solid hsl(215, 32%, 27%);
+}
+
+.container {
+  margin: 80px auto;
+  background-color: hsl(216, 50%, 16%);
+  border: 1px solid hsl(215, 32%, 27%);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 350px;
+  padding: 30px;
+  box-shadow: 0px 0px 26px 25px hsl(216, 50%, 16%);
+  -webkit-box-shadow: 0px 0px 26px 25px hsl(216, 50%, 16%);
+  -moz-box-shadow: 0px 0px 26px 25px hsl(216, 50%, 16%);
+}
+
+.container-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.img-card {
+  display: block;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.img-link:hover {
+  border: 1px solid white;
+  border-radius: 30px;
+}
+
+.container-title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 1.5rem;
+  padding: 35px 0px 20px 0px;
+  font-family: Outfit, sans-serif;
+  color: hsl(0, 0%, 100%);
+}
+
+.title-nft {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 1.5rem;
+  font-family: Outfit, sans-serif;
+  color: hsl(0, 0%, 100%);
+}
+
+.nft-description {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 5px 0px 25px 0px;
+  font-family: Outfit, sans-serif;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+  font-size: 1.2rem;
+}
+
+.eth-status {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.eth-value {
+  color: hsl(178, 100%, 50%);
+  font-family: Outfit, sans-serif;
+  font-weight: 400;
+}
+
+.days-left {
+  color: hsl(215, 51%, 70%);
+  font-family: Outfit, sans-serif;
+  font-weight: 400;
+}
+
+div.eth-id,
+div.eth-left {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.eth-id,
+.eth-left {
+  padding: 10px 0px 20px 0px;
+}
+
+.container-creator {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: line;
+  padding: 5px 10px 10px 0px;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.image-avatar {
+  width: auto;
+  max-height: 40px;
+  border-radius: 50%;
+  border: 1px solid hsl(0, 0%, 100%);
+}
+
+.createdby {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-left: 15px;
+  font-family: "Outfit", sans-serif;
+  color: hsl(215, 51%, 70%);
+}
+
+a.text-link {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+
+a.text-link:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  color: hsl(215, 51%, 70%);
+}
